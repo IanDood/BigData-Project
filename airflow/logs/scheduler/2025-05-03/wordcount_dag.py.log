@@ -1615,3 +1615,108 @@
 [2025-05-03T02:25:26.696+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:26.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-03T02:25:26.700+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:26.700+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
 [2025-05-03T02:25:26.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.169 seconds
+[2025-05-03T02:25:57.100+0000] {processor.py:186} INFO - Started process (PID=859) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:25:57.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:25:57.101+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:25:57.236+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:25:57.244+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.244+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:25:57.248+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.248+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:25:57.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.157 seconds
+[2025-05-03T02:26:27.908+0000] {processor.py:186} INFO - Started process (PID=864) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:26:27.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:26:27.909+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:26:28.052+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:26:28.062+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:28.062+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:26:28.067+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:28.067+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:26:28.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.167 seconds
+[2025-05-03T02:26:58.680+0000] {processor.py:186} INFO - Started process (PID=869) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:26:58.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:26:58.681+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:26:58.810+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:26:58.817+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:26:58.821+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.821+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:26:58.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.149 seconds
+[2025-05-03T02:27:29.232+0000] {processor.py:186} INFO - Started process (PID=874) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:27:29.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:27:29.233+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:27:29.366+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:27:29.374+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:27:29.379+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.379+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:27:29.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.156 seconds
+[2025-05-03T02:28:00.051+0000] {processor.py:186} INFO - Started process (PID=879) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:28:00.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:28:00.052+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:00.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:28:00.184+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:28:00.191+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:00.191+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:28:00.196+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:00.196+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:28:00.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.153 seconds
+[2025-05-03T02:28:30.726+0000] {processor.py:186} INFO - Started process (PID=884) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:28:30.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:28:30.727+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:28:30.865+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:28:30.873+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:28:30.877+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.877+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:28:30.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.160 seconds
+[2025-05-03T02:29:01.511+0000] {processor.py:186} INFO - Started process (PID=889) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:29:01.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:29:01.512+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:29:01.649+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:29:01.656+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:29:01.660+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.660+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:29:01.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.158 seconds
+[2025-05-03T02:29:32.250+0000] {processor.py:186} INFO - Started process (PID=894) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:29:32.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:29:32.251+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:29:32.380+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:29:32.387+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.387+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:29:32.391+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.391+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:29:32.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.149 seconds
+[2025-05-03T02:30:03.016+0000] {processor.py:186} INFO - Started process (PID=899) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:30:03.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:30:03.017+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:03.017+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:30:03.151+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:30:03.158+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:03.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:30:03.162+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:03.162+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:30:03.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.155 seconds
+[2025-05-03T02:30:33.853+0000] {processor.py:186} INFO - Started process (PID=904) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:30:33.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:30:33.854+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:30:34.002+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:30:34.010+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:34.009+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:30:34.014+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:34.014+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:30:34.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.169 seconds
+[2025-05-03T02:31:04.572+0000] {processor.py:186} INFO - Started process (PID=909) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:31:04.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:31:04.573+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:31:04.710+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:31:04.718+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:31:04.723+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.723+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:31:04.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.159 seconds
+[2025-05-03T02:31:35.299+0000] {processor.py:186} INFO - Started process (PID=914) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:31:35.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:31:35.301+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:31:35.436+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:31:35.445+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:31:35.450+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.450+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:31:35.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.159 seconds
+[2025-05-03T02:32:06.097+0000] {processor.py:186} INFO - Started process (PID=919) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:32:06.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:32:06.098+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:06.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:32:06.243+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:32:06.251+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:06.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:32:06.255+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:06.255+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:32:06.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.167 seconds
+[2025-05-03T02:32:36.887+0000] {processor.py:186} INFO - Started process (PID=924) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:32:36.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:32:36.888+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:32:37.017+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:32:37.024+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:37.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:32:37.027+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:37.027+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:32:37.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.149 seconds
+[2025-05-03T02:33:07.367+0000] {processor.py:186} INFO - Started process (PID=929) to work on /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:33:07.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/wordcount_dag.py for tasks to queue
+[2025-05-03T02:33:07.369+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:33:07.501+0000] {processor.py:925} INFO - DAG(s) 'news_dag' retrieved from /opt/airflow/dags/wordcount_dag.py
+[2025-05-03T02:33:07.510+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:33:07.515+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.515+0000] {dag.py:4180} INFO - Setting next_dagrun for news_dag to None, run_after=None
+[2025-05-03T02:33:07.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/wordcount_dag.py took 0.158 seconds

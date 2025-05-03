@@ -1615,3 +1615,108 @@
 [2025-05-03T02:25:26.510+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:26.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-03T02:25:26.514+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:26.514+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
 [2025-05-03T02:25:26.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.226 seconds
+[2025-05-03T02:25:57.051+0000] {processor.py:186} INFO - Started process (PID=857) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:25:57.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:25:57.053+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:25:57.262+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:25:57.270+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:25:57.275+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.275+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:25:57.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.232 seconds
+[2025-05-03T02:26:27.683+0000] {processor.py:186} INFO - Started process (PID=862) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:26:27.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:26:27.684+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:26:27.872+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:26:27.880+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:26:27.884+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.884+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:26:27.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.210 seconds
+[2025-05-03T02:26:58.445+0000] {processor.py:186} INFO - Started process (PID=867) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:26:58.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:26:58.446+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:26:58.641+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:26:58.649+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.649+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:26:58.654+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.653+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:26:58.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.219 seconds
+[2025-05-03T02:27:29.183+0000] {processor.py:186} INFO - Started process (PID=872) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:27:29.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:27:29.185+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:27:29.402+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:27:29.410+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:27:29.415+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.415+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:27:29.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.242 seconds
+[2025-05-03T02:27:59.832+0000] {processor.py:186} INFO - Started process (PID=877) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:27:59.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:27:59.833+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:59.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:28:00.017+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:28:00.024+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:00.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:28:00.027+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:00.027+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:28:00.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.204 seconds
+[2025-05-03T02:28:30.602+0000] {processor.py:186} INFO - Started process (PID=882) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:28:30.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:28:30.604+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:28:30.811+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:28:30.818+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:28:30.823+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.823+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:28:30.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.230 seconds
+[2025-05-03T02:29:01.282+0000] {processor.py:186} INFO - Started process (PID=887) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:29:01.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:29:01.284+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:29:01.473+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:29:01.481+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:29:01.485+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.485+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:29:01.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.211 seconds
+[2025-05-03T02:29:32.029+0000] {processor.py:186} INFO - Started process (PID=892) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:29:32.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:29:32.030+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:29:32.215+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:29:32.222+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:29:32.226+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.226+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:29:32.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.206 seconds
+[2025-05-03T02:30:02.786+0000] {processor.py:186} INFO - Started process (PID=897) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:30:02.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:30:02.787+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:30:02.980+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:30:02.988+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.988+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:30:02.992+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.992+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:30:02.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.216 seconds
+[2025-05-03T02:30:33.590+0000] {processor.py:186} INFO - Started process (PID=902) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:30:33.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:30:33.591+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:30:33.818+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:30:33.826+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.825+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:30:33.829+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.829+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:30:33.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.249 seconds
+[2025-05-03T02:31:04.448+0000] {processor.py:186} INFO - Started process (PID=907) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:31:04.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:31:04.450+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:31:04.662+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:31:04.670+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:31:04.674+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.674+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:31:04.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.236 seconds
+[2025-05-03T02:31:35.252+0000] {processor.py:186} INFO - Started process (PID=912) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:31:35.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:31:35.253+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:31:35.470+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:31:35.478+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:31:35.483+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.483+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:31:35.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.241 seconds
+[2025-05-03T02:32:05.865+0000] {processor.py:186} INFO - Started process (PID=917) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:32:05.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:32:05.866+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:05.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:32:06.056+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:32:06.066+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:06.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:32:06.071+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:06.071+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:32:06.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.215 seconds
+[2025-05-03T02:32:36.648+0000] {processor.py:186} INFO - Started process (PID=922) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:32:36.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:32:36.649+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:32:36.852+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:32:36.859+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:32:36.863+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.863+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:32:36.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.224 seconds
+[2025-05-03T02:33:07.319+0000] {processor.py:186} INFO - Started process (PID=927) to work on /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:33:07.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/player_data_fetcher_dag.py for tasks to queue
+[2025-05-03T02:33:07.320+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:33:07.535+0000] {processor.py:925} INFO - DAG(s) 'gamelog_dag' retrieved from /opt/airflow/dags/player_data_fetcher_dag.py
+[2025-05-03T02:33:07.543+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:33:07.547+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.547+0000] {dag.py:4180} INFO - Setting next_dagrun for gamelog_dag to None, run_after=None
+[2025-05-03T02:33:07.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/player_data_fetcher_dag.py took 0.237 seconds

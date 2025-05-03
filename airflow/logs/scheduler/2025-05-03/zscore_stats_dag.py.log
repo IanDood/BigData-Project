@@ -1615,3 +1615,108 @@
 [2025-05-03T02:25:26.266+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:26.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-03T02:25:26.271+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:26.271+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
 [2025-05-03T02:25:26.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.155 seconds
+[2025-05-03T02:25:56.901+0000] {processor.py:186} INFO - Started process (PID=855) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:25:56.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:25:56.903+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:56.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:25:57.016+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:25:57.024+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:25:57.029+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.029+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:25:57.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.138 seconds
+[2025-05-03T02:26:27.528+0000] {processor.py:186} INFO - Started process (PID=860) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:26:27.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:26:27.530+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:26:27.646+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:26:27.655+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:26:27.660+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.660+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:26:27.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.144 seconds
+[2025-05-03T02:26:58.293+0000] {processor.py:186} INFO - Started process (PID=865) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:26:58.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:26:58.295+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:26:58.410+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:26:58.418+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:26:58.423+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.423+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:26:58.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.144 seconds
+[2025-05-03T02:27:29.030+0000] {processor.py:186} INFO - Started process (PID=870) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:27:29.031+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:27:29.031+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:27:29.148+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:27:29.157+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:27:29.161+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.161+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:27:29.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.141 seconds
+[2025-05-03T02:27:59.692+0000] {processor.py:186} INFO - Started process (PID=875) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:27:59.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:27:59.694+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:59.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:27:59.799+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:27:59.807+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:59.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:27:59.811+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:59.811+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:27:59.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.130 seconds
+[2025-05-03T02:28:30.462+0000] {processor.py:186} INFO - Started process (PID=880) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:28:30.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:28:30.464+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:28:30.569+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:28:30.577+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:28:30.582+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.582+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:28:30.588+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.129 seconds
+[2025-05-03T02:29:01.121+0000] {processor.py:186} INFO - Started process (PID=885) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:29:01.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:29:01.123+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:29:01.248+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:29:01.256+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.256+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:29:01.261+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.261+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:29:01.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.154 seconds
+[2025-05-03T02:29:31.879+0000] {processor.py:186} INFO - Started process (PID=890) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:29:31.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:29:31.881+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:31.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:29:31.996+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:29:32.004+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:29:32.009+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.009+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:29:32.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.146 seconds
+[2025-05-03T02:30:02.622+0000] {processor.py:186} INFO - Started process (PID=895) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:30:02.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:30:02.624+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:30:02.750+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:30:02.759+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:30:02.764+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.764+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:30:02.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.155 seconds
+[2025-05-03T02:30:33.417+0000] {processor.py:186} INFO - Started process (PID=900) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:30:33.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:30:33.418+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:30:33.551+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:30:33.563+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:30:33.568+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.568+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:30:33.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.162 seconds
+[2025-05-03T02:31:04.294+0000] {processor.py:186} INFO - Started process (PID=905) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:31:04.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:31:04.297+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:31:04.414+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:31:04.423+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:31:04.428+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.428+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:31:04.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.150 seconds
+[2025-05-03T02:31:35.093+0000] {processor.py:186} INFO - Started process (PID=910) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:31:35.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:31:35.097+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:31:35.217+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:31:35.226+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:31:35.231+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.231+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:31:35.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.154 seconds
+[2025-05-03T02:32:05.699+0000] {processor.py:186} INFO - Started process (PID=915) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:32:05.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:32:05.701+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:05.701+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:32:05.825+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:32:05.835+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:05.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:32:05.840+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:05.840+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:32:05.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.155 seconds
+[2025-05-03T02:32:36.475+0000] {processor.py:186} INFO - Started process (PID=920) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:32:36.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:32:36.478+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:32:36.610+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:32:36.620+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:32:36.625+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.625+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:32:36.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.166 seconds
+[2025-05-03T02:33:07.158+0000] {processor.py:186} INFO - Started process (PID=925) to work on /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:33:07.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/zscore_stats_dag.py for tasks to queue
+[2025-05-03T02:33:07.160+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:33:07.282+0000] {processor.py:925} INFO - DAG(s) 'nba_zscore_dag' retrieved from /opt/airflow/dags/zscore_stats_dag.py
+[2025-05-03T02:33:07.291+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:33:07.296+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.296+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_zscore_dag to None, run_after=None
+[2025-05-03T02:33:07.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/zscore_stats_dag.py took 0.150 seconds

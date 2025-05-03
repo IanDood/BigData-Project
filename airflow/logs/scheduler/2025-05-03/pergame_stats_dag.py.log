@@ -1615,3 +1615,108 @@
 [2025-05-03T02:25:26.266+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:26.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-03T02:25:26.271+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:26.271+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
 [2025-05-03T02:25:26.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.148 seconds
+[2025-05-03T02:25:56.903+0000] {processor.py:186} INFO - Started process (PID=856) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:25:56.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:25:56.904+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:56.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:25:57.016+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:25:57.024+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:25:57.029+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:25:57.029+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:25:57.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.135 seconds
+[2025-05-03T02:26:27.531+0000] {processor.py:186} INFO - Started process (PID=861) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:26:27.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:26:27.532+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:26:27.646+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:26:27.655+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:26:27.660+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:27.660+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:26:27.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.140 seconds
+[2025-05-03T02:26:58.298+0000] {processor.py:186} INFO - Started process (PID=866) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:26:58.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:26:58.299+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:26:58.410+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:26:58.418+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:26:58.423+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:26:58.423+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:26:58.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.137 seconds
+[2025-05-03T02:27:29.032+0000] {processor.py:186} INFO - Started process (PID=871) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:27:29.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:27:29.033+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:27:29.148+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:27:29.157+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:27:29.161+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:29.161+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:27:29.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.138 seconds
+[2025-05-03T02:27:59.695+0000] {processor.py:186} INFO - Started process (PID=876) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:27:59.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:27:59.697+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:59.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:27:59.799+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:27:59.807+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:59.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:27:59.811+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:27:59.811+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:27:59.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.126 seconds
+[2025-05-03T02:28:30.465+0000] {processor.py:186} INFO - Started process (PID=881) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:28:30.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:28:30.466+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:28:30.569+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:28:30.577+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:28:30.581+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:28:30.581+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:28:30.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.126 seconds
+[2025-05-03T02:29:01.126+0000] {processor.py:186} INFO - Started process (PID=886) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:29:01.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:29:01.127+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:29:01.248+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:29:01.256+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.256+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:29:01.261+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:01.261+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:29:01.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.147 seconds
+[2025-05-03T02:29:31.885+0000] {processor.py:186} INFO - Started process (PID=891) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:29:31.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:29:31.889+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:31.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:29:31.996+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:29:32.004+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:29:32.009+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:29:32.009+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:29:32.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.137 seconds
+[2025-05-03T02:30:02.625+0000] {processor.py:186} INFO - Started process (PID=896) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:30:02.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:30:02.627+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:30:02.750+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:30:02.759+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:30:02.764+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:02.764+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:30:02.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.151 seconds
+[2025-05-03T02:30:33.419+0000] {processor.py:186} INFO - Started process (PID=901) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:30:33.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:30:33.420+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:30:33.551+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:30:33.560+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:30:33.565+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:30:33.565+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:30:33.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.156 seconds
+[2025-05-03T02:31:04.300+0000] {processor.py:186} INFO - Started process (PID=906) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:31:04.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:31:04.302+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:31:04.414+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:31:04.423+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:31:04.428+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:04.428+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:31:04.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.139 seconds
+[2025-05-03T02:31:35.100+0000] {processor.py:186} INFO - Started process (PID=911) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:31:35.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:31:35.102+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:31:35.217+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:31:35.226+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:31:35.231+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:31:35.231+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:31:35.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.143 seconds
+[2025-05-03T02:32:05.703+0000] {processor.py:186} INFO - Started process (PID=916) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:32:05.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:32:05.704+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:05.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:32:05.825+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:32:05.835+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:05.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:32:05.840+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:05.840+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:32:05.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.150 seconds
+[2025-05-03T02:32:36.482+0000] {processor.py:186} INFO - Started process (PID=921) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:32:36.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:32:36.484+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:32:36.610+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:32:36.620+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:32:36.625+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:32:36.625+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:32:36.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.156 seconds
+[2025-05-03T02:33:07.161+0000] {processor.py:186} INFO - Started process (PID=926) to work on /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:33:07.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pergame_stats_dag.py for tasks to queue
+[2025-05-03T02:33:07.163+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:33:07.282+0000] {processor.py:925} INFO - DAG(s) 'nba_stats_dag' retrieved from /opt/airflow/dags/pergame_stats_dag.py
+[2025-05-03T02:33:07.291+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:33:07.296+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.296+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_stats_dag to None, run_after=None
+[2025-05-03T02:33:07.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pergame_stats_dag.py took 0.146 seconds

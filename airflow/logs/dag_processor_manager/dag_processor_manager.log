@@ -19781,3 +19781,187 @@ File Path                                     PID    Runtime      # DAGs    # Er
 /opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.16s           2025-05-03T02:25:26                      10
 /opt/airflow/dags/permission_fixer_dag.py                              1           0  0.12s           2025-05-03T02:25:26                      10
 ================================================================================
+[2025-05-03T02:26:11.373+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.24s           2025-05-03T02:25:57                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.17s           2025-05-03T02:25:57                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.15s           2025-05-03T02:25:57                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.14s           2025-05-03T02:25:57                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:25:57                      10
+================================================================================
+[2025-05-03T02:26:42.095+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.22s           2025-05-03T02:26:27                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.17s           2025-05-03T02:26:28                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.16s           2025-05-03T02:26:27                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.15s           2025-05-03T02:26:27                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:26:27                      10
+================================================================================
+[2025-05-03T02:27:12.852+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.23s           2025-05-03T02:26:58                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.17s           2025-05-03T02:26:58                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.16s           2025-05-03T02:26:58                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.16s           2025-05-03T02:26:58                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:26:58                      10
+================================================================================
+[2025-05-03T02:27:18.913+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-05-03T02:27:18.917+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-05-03T02:27:43.530+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.25s           2025-05-03T02:27:29                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.16s           2025-05-03T02:27:29                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.15s           2025-05-03T02:27:29                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.15s           2025-05-03T02:27:29                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:27:29                      10
+================================================================================
+[2025-05-03T02:28:14.303+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.21s           2025-05-03T02:28:00                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.16s           2025-05-03T02:28:00                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.15s           2025-05-03T02:27:59                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.14s           2025-05-03T02:27:59                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.11s           2025-05-03T02:28:00                      10
+================================================================================
+[2025-05-03T02:28:44.962+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.24s           2025-05-03T02:28:30                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.17s           2025-05-03T02:28:30                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.14s           2025-05-03T02:28:30                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.13s           2025-05-03T02:28:30                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.12s           2025-05-03T02:28:30                      10
+================================================================================
+[2025-05-03T02:29:15.702+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.22s           2025-05-03T02:29:01                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.18s           2025-05-03T02:29:01                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.17s           2025-05-03T02:29:01                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.16s           2025-05-03T02:29:01                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:29:01                      10
+================================================================================
+[2025-05-03T02:29:46.444+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.22s           2025-05-03T02:29:32                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.16s           2025-05-03T02:29:32                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.16s           2025-05-03T02:29:32                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.16s           2025-05-03T02:29:32                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:29:32                      10
+================================================================================
+[2025-05-03T02:30:17.230+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.23s           2025-05-03T02:30:03                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.17s           2025-05-03T02:30:02                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.17s           2025-05-03T02:30:02                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.16s           2025-05-03T02:30:03                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:30:03                      10
+================================================================================
+[2025-05-03T02:30:48.100+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.26s           2025-05-03T02:30:33                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.18s           2025-05-03T02:30:34                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.18s           2025-05-03T02:30:33                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.17s           2025-05-03T02:30:33                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.12s           2025-05-03T02:30:33                      10
+================================================================================
+[2025-05-03T02:31:18.874+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.25s           2025-05-03T02:31:04                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.17s           2025-05-03T02:31:04                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.17s           2025-05-03T02:31:04                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.16s           2025-05-03T02:31:04                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.12s           2025-05-03T02:31:04                      10
+================================================================================
+[2025-05-03T02:31:49.576+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.25s           2025-05-03T02:31:35                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.17s           2025-05-03T02:31:35                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.17s           2025-05-03T02:31:35                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.16s           2025-05-03T02:31:35                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:31:35                      10
+================================================================================
+[2025-05-03T02:32:19.276+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-05-03T02:32:19.277+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-05-03T02:32:20.293+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.23s           2025-05-03T02:32:06                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.18s           2025-05-03T02:32:06                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.17s           2025-05-03T02:32:05                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.16s           2025-05-03T02:32:05                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:32:06                      10
+================================================================================
+[2025-05-03T02:32:51.014+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.23s           2025-05-03T02:32:36                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.19s           2025-05-03T02:32:36                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.18s           2025-05-03T02:32:36                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.16s           2025-05-03T02:32:37                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:32:36                      10
+================================================================================
+[2025-05-03T02:33:21.698+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/player_data_fetcher_dag.py                           1           0  0.25s           2025-05-03T02:33:07                      10
+/opt/airflow/dags/wordcount_dag.py                                     1           0  0.17s           2025-05-03T02:33:07                      10
+/opt/airflow/dags/zscore_stats_dag.py                                  1           0  0.16s           2025-05-03T02:33:07                      10
+/opt/airflow/dags/pergame_stats_dag.py                                 1           0  0.16s           2025-05-03T02:33:07                      10
+/opt/airflow/dags/permission_fixer_dag.py                              1           0  0.04s           2025-05-03T02:33:07                      10
+================================================================================
