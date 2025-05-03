@@ -1,0 +1,28 @@
+[2025-05-02T01:09:04.478+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-02T01:09:04.487+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fix_permissions_dag.fix_permissions manual__2025-05-02T01:09:03.498952+00:00 [queued]>
+[2025-05-02T01:09:04.491+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fix_permissions_dag.fix_permissions manual__2025-05-02T01:09:03.498952+00:00 [queued]>
+[2025-05-02T01:09:04.491+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-05-02T01:09:04.496+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): fix_permissions> on 2025-05-02 01:09:03.498952+00:00
+[2025-05-02T01:09:04.499+0000] {warnings.py:112} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=265) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-02T01:09:04.500+0000] {standard_task_runner.py:72} INFO - Started process 267 to run task
+[2025-05-02T01:09:04.501+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fix_permissions_dag', 'fix_permissions', 'manual__2025-05-02T01:09:03.498952+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/permission_fixer_dag.py', '--cfg-path', '/tmp/tmpsktl6wev']
+[2025-05-02T01:09:04.501+0000] {standard_task_runner.py:105} INFO - Job 79: Subtask fix_permissions
+[2025-05-02T01:09:04.527+0000] {task_command.py:467} INFO - Running <TaskInstance: fix_permissions_dag.fix_permissions manual__2025-05-02T01:09:03.498952+00:00 [running]> on host fce46da9e4cc
+[2025-05-02T01:09:04.562+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ian' AIRFLOW_CTX_DAG_ID='fix_permissions_dag' AIRFLOW_CTX_TASK_ID='fix_permissions' AIRFLOW_CTX_EXECUTION_DATE='2025-05-02T01:09:03.498952+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-02T01:09:03.498952+00:00'
+[2025-05-02T01:09:04.562+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-02T01:09:04.569+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-05-02T01:09:04.569+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'bash /opt/airflow/scripts/bash/permissions.sh ']
+[2025-05-02T01:09:04.575+0000] {subprocess.py:99} INFO - Output:
+[2025-05-02T01:09:04.606+0000] {subprocess.py:106} INFO - chmod: changing permissions of '/opt/airflow/nba_data': Operation not permitted
+[2025-05-02T01:09:04.608+0000] {subprocess.py:106} INFO - chmod: changing permissions of '/opt/airflow/nba_data/season-logs': Operation not permitted
+[2025-05-02T01:09:04.608+0000] {subprocess.py:106} INFO - chmod: changing permissions of '/opt/airflow/nba_data/season-logs/2023-24_Season': Operation not permitted
+[2025-05-02T01:09:04.609+0000] {subprocess.py:106} INFO - chmod: changing permissions of '/opt/airflow/nba_data/news-logs': Operation not permitted
+[2025-05-02T01:09:04.610+0000] {subprocess.py:106} INFO - chmod: changing permissions of '/opt/airflow/nba_data/gamelogs': Operation not permitted
+[2025-05-02T01:09:04.610+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-05-02T01:09:04.623+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-02T01:09:04.623+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=fix_permissions_dag, task_id=fix_permissions, run_id=manual__2025-05-02T01:09:03.498952+00:00, execution_date=20250502T010903, start_date=20250502T010904, end_date=20250502T010904
+[2025-05-02T01:09:04.675+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-02T01:09:04.682+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-02T01:09:04.683+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

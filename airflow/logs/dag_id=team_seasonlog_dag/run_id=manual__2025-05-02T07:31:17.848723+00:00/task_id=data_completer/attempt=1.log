@@ -1,0 +1,24 @@
+[2025-05-02T07:31:24.246+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-02T07:31:24.256+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: team_seasonlog_dag.data_completer manual__2025-05-02T07:31:17.848723+00:00 [queued]>
+[2025-05-02T07:31:24.261+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: team_seasonlog_dag.data_completer manual__2025-05-02T07:31:17.848723+00:00 [queued]>
+[2025-05-02T07:31:24.261+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-05-02T07:31:24.267+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): data_completer> on 2025-05-02 07:31:17.848723+00:00
+[2025-05-02T07:31:24.272+0000] {warnings.py:112} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=585) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-02T07:31:24.272+0000] {standard_task_runner.py:72} INFO - Started process 621 to run task
+[2025-05-02T07:31:24.273+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'team_seasonlog_dag', 'data_completer', 'manual__2025-05-02T07:31:17.848723+00:00', '--job-id', '176', '--raw', '--subdir', 'DAGS_FOLDER/team_log_dag.py', '--cfg-path', '/tmp/tmp05n10txz']
+[2025-05-02T07:31:24.274+0000] {standard_task_runner.py:105} INFO - Job 176: Subtask data_completer
+[2025-05-02T07:31:24.298+0000] {task_command.py:467} INFO - Running <TaskInstance: team_seasonlog_dag.data_completer manual__2025-05-02T07:31:17.848723+00:00 [running]> on host c1ec3e63ea09
+[2025-05-02T07:31:24.338+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ian' AIRFLOW_CTX_DAG_ID='team_seasonlog_dag' AIRFLOW_CTX_TASK_ID='data_completer' AIRFLOW_CTX_EXECUTION_DATE='2025-05-02T07:31:17.848723+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-02T07:31:17.848723+00:00'
+[2025-05-02T07:31:24.339+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-02T07:31:24.345+0000] {add_opponents_score.py:75} INFO - Starting to process Boston Celtics 2023-24 season log...
+[2025-05-02T07:31:24.352+0000] {add_opponents_score.py:41} ERROR - The input CSV does not have a 'GAME_ID' column.
+[2025-05-02T07:31:25.852+0000] {add_opponents_score.py:75} INFO - Starting to process Oklahoma City Thunder 2023-24 season log...
+[2025-05-02T07:31:25.854+0000] {add_opponents_score.py:41} ERROR - The input CSV does not have a 'GAME_ID' column.
+[2025-05-02T07:31:27.358+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-02T07:31:27.365+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-02T07:31:27.365+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=team_seasonlog_dag, task_id=data_completer, run_id=manual__2025-05-02T07:31:17.848723+00:00, execution_date=20250502T073117, start_date=20250502T073124, end_date=20250502T073127
+[2025-05-02T07:31:27.407+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-02T07:31:27.414+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-02T07:31:27.415+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

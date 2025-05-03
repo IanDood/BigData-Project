@@ -1,0 +1,64 @@
+[2025-05-01T21:54:56.795+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-01T21:54:56.801+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gamelog_dag.run_data_fetcher manual__2025-05-01T21:54:55.652496+00:00 [queued]>
+[2025-05-01T21:54:56.805+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gamelog_dag.run_data_fetcher manual__2025-05-01T21:54:55.652496+00:00 [queued]>
+[2025-05-01T21:54:56.805+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-05-01T21:54:56.811+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): run_data_fetcher> on 2025-05-01 21:54:55.652496+00:00
+[2025-05-01T21:54:56.815+0000] {warnings.py:112} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=683) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-01T21:54:56.815+0000] {standard_task_runner.py:72} INFO - Started process 684 to run task
+[2025-05-01T21:54:56.816+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'gamelog_dag', 'run_data_fetcher', 'manual__2025-05-01T21:54:55.652496+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/player_data_fetcher_dag.py', '--cfg-path', '/tmp/tmp8mwx8fv4']
+[2025-05-01T21:54:56.817+0000] {standard_task_runner.py:105} INFO - Job 43: Subtask run_data_fetcher
+[2025-05-01T21:54:56.845+0000] {task_command.py:467} INFO - Running <TaskInstance: gamelog_dag.run_data_fetcher manual__2025-05-01T21:54:55.652496+00:00 [running]> on host a7e4ea3334d8
+[2025-05-01T21:54:56.886+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ian' AIRFLOW_CTX_DAG_ID='gamelog_dag' AIRFLOW_CTX_TASK_ID='run_data_fetcher' AIRFLOW_CTX_EXECUTION_DATE='2025-05-01T21:54:55.652496+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-01T21:54:55.652496+00:00'
+[2025-05-01T21:54:56.887+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-01T21:54:56.896+0000] {fetch_season_logs.py:17} INFO - Fetching season 2003-04, attempt 1
+[2025-05-01T21:54:57.219+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2003-04_Season.csv
+[2025-05-01T21:54:58.720+0000] {fetch_season_logs.py:17} INFO - Fetching season 2004-05, attempt 1
+[2025-05-01T21:54:58.813+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2004-05_Season.csv
+[2025-05-01T21:55:00.314+0000] {fetch_season_logs.py:17} INFO - Fetching season 2005-06, attempt 1
+[2025-05-01T21:55:00.383+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2005-06_Season.csv
+[2025-05-01T21:55:01.884+0000] {fetch_season_logs.py:17} INFO - Fetching season 2006-07, attempt 1
+[2025-05-01T21:55:01.944+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2006-07_Season.csv
+[2025-05-01T21:55:03.444+0000] {fetch_season_logs.py:17} INFO - Fetching season 2007-08, attempt 1
+[2025-05-01T21:55:03.510+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2007-08_Season.csv
+[2025-05-01T21:55:05.013+0000] {fetch_season_logs.py:17} INFO - Fetching season 2008-09, attempt 1
+[2025-05-01T21:55:05.078+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2008-09_Season.csv
+[2025-05-01T21:55:06.580+0000] {fetch_season_logs.py:17} INFO - Fetching season 2009-10, attempt 1
+[2025-05-01T21:55:06.669+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2009-10_Season.csv
+[2025-05-01T21:55:08.170+0000] {fetch_season_logs.py:17} INFO - Fetching season 2010-11, attempt 1
+[2025-05-01T21:55:08.240+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2010-11_Season.csv
+[2025-05-01T21:55:09.740+0000] {fetch_season_logs.py:17} INFO - Fetching season 2011-12, attempt 1
+[2025-05-01T21:55:09.798+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2011-12_Season.csv
+[2025-05-01T21:55:11.300+0000] {fetch_season_logs.py:17} INFO - Fetching season 2012-13, attempt 1
+[2025-05-01T21:55:11.401+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2012-13_Season.csv
+[2025-05-01T21:55:12.903+0000] {fetch_season_logs.py:17} INFO - Fetching season 2013-14, attempt 1
+[2025-05-01T21:55:12.959+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2013-14_Season.csv
+[2025-05-01T21:55:14.460+0000] {fetch_season_logs.py:17} INFO - Fetching season 2014-15, attempt 1
+[2025-05-01T21:55:14.567+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2014-15_Season.csv
+[2025-05-01T21:55:16.068+0000] {fetch_season_logs.py:17} INFO - Fetching season 2015-16, attempt 1
+[2025-05-01T21:55:16.135+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2015-16_Season.csv
+[2025-05-01T21:55:17.637+0000] {fetch_season_logs.py:17} INFO - Fetching season 2016-17, attempt 1
+[2025-05-01T21:55:17.702+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2016-17_Season.csv
+[2025-05-01T21:55:19.203+0000] {fetch_season_logs.py:17} INFO - Fetching season 2017-18, attempt 1
+[2025-05-01T21:55:19.264+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2017-18_Season.csv
+[2025-05-01T21:55:20.765+0000] {fetch_season_logs.py:17} INFO - Fetching season 2018-19, attempt 1
+[2025-05-01T21:55:20.839+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2018-19_Season.csv
+[2025-05-01T21:55:22.340+0000] {fetch_season_logs.py:17} INFO - Fetching season 2019-20, attempt 1
+[2025-05-01T21:55:22.665+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2019-20_Season.csv
+[2025-05-01T21:55:24.167+0000] {fetch_season_logs.py:17} INFO - Fetching season 2020-21, attempt 1
+[2025-05-01T21:55:24.235+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2020-21_Season.csv
+[2025-05-01T21:55:25.736+0000] {fetch_season_logs.py:17} INFO - Fetching season 2021-22, attempt 1
+[2025-05-01T21:55:25.801+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2021-22_Season.csv
+[2025-05-01T21:55:27.303+0000] {fetch_season_logs.py:17} INFO - Fetching season 2022-23, attempt 1
+[2025-05-01T21:55:27.367+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2022-23_Season.csv
+[2025-05-01T21:55:28.870+0000] {fetch_season_logs.py:17} INFO - Fetching season 2023-24, attempt 1
+[2025-05-01T21:55:28.967+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2023-24_Season.csv
+[2025-05-01T21:55:30.469+0000] {fetch_season_logs.py:17} INFO - Fetching season 2024-25, attempt 1
+[2025-05-01T21:55:30.572+0000] {fetch_season_logs.py:41} INFO - Saved: /opt/airflow/nba_data/gamelogs2024-25_Season.csv
+[2025-05-01T21:55:32.076+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-01T21:55:32.080+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-01T21:55:32.080+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=gamelog_dag, task_id=run_data_fetcher, run_id=manual__2025-05-01T21:54:55.652496+00:00, execution_date=20250501T215455, start_date=20250501T215456, end_date=20250501T215532
+[2025-05-01T21:55:32.109+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-01T21:55:32.115+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-01T21:55:32.115+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

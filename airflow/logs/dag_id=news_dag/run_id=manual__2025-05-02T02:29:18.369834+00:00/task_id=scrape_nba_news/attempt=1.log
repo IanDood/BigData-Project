@@ -1,0 +1,21 @@
+[2025-05-02T02:29:19.099+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-02T02:29:19.107+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: news_dag.scrape_nba_news manual__2025-05-02T02:29:18.369834+00:00 [queued]>
+[2025-05-02T02:29:19.111+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: news_dag.scrape_nba_news manual__2025-05-02T02:29:18.369834+00:00 [queued]>
+[2025-05-02T02:29:19.111+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-05-02T02:29:19.119+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): scrape_nba_news> on 2025-05-02 02:29:18.369834+00:00
+[2025-05-02T02:29:19.122+0000] {warnings.py:112} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=401) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-02T02:29:19.123+0000] {standard_task_runner.py:72} INFO - Started process 402 to run task
+[2025-05-02T02:29:19.124+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'news_dag', 'scrape_nba_news', 'manual__2025-05-02T02:29:18.369834+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/wordcount_dag.py', '--cfg-path', '/tmp/tmpmf9q3_w2']
+[2025-05-02T02:29:19.125+0000] {standard_task_runner.py:105} INFO - Job 121: Subtask scrape_nba_news
+[2025-05-02T02:29:19.150+0000] {task_command.py:467} INFO - Running <TaskInstance: news_dag.scrape_nba_news manual__2025-05-02T02:29:18.369834+00:00 [running]> on host be0f4b68f6b8
+[2025-05-02T02:29:19.189+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ian' AIRFLOW_CTX_DAG_ID='news_dag' AIRFLOW_CTX_TASK_ID='scrape_nba_news' AIRFLOW_CTX_EXECUTION_DATE='2025-05-02T02:29:18.369834+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-02T02:29:18.369834+00:00'
+[2025-05-02T02:29:19.189+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-02T02:29:19.884+0000] {logging_mixin.py:190} INFO - Article saved to /opt/airflow/nba_data/news-logs/nba_news_20250502.txt
+[2025-05-02T02:29:19.884+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-02T02:29:19.889+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-02T02:29:19.889+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=news_dag, task_id=scrape_nba_news, run_id=manual__2025-05-02T02:29:18.369834+00:00, execution_date=20250502T022918, start_date=20250502T022919, end_date=20250502T022919
+[2025-05-02T02:29:19.912+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-02T02:29:19.927+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-02T02:29:19.928+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

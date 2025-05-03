@@ -1,0 +1,19 @@
+[2025-05-02T02:38:13.624+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-02T02:38:13.632+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: news_dag.trigger_perm manual__2025-05-02T02:38:11.440279+00:00 [queued]>
+[2025-05-02T02:38:13.635+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: news_dag.trigger_perm manual__2025-05-02T02:38:11.440279+00:00 [queued]>
+[2025-05-02T02:38:13.636+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-05-02T02:38:13.640+0000] {taskinstance.py:2890} INFO - Executing <Task(TriggerDagRunOperator): trigger_perm> on 2025-05-02 02:38:11.440279+00:00
+[2025-05-02T02:38:13.643+0000] {warnings.py:112} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=945) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-02T02:38:13.644+0000] {standard_task_runner.py:72} INFO - Started process 946 to run task
+[2025-05-02T02:38:13.644+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'news_dag', 'trigger_perm', 'manual__2025-05-02T02:38:11.440279+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/wordcount_dag.py', '--cfg-path', '/tmp/tmpqu0hbmwy']
+[2025-05-02T02:38:13.645+0000] {standard_task_runner.py:105} INFO - Job 134: Subtask trigger_perm
+[2025-05-02T02:38:13.665+0000] {task_command.py:467} INFO - Running <TaskInstance: news_dag.trigger_perm manual__2025-05-02T02:38:11.440279+00:00 [running]> on host be0f4b68f6b8
+[2025-05-02T02:38:13.693+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ian' AIRFLOW_CTX_DAG_ID='news_dag' AIRFLOW_CTX_TASK_ID='trigger_perm' AIRFLOW_CTX_EXECUTION_DATE='2025-05-02T02:38:11.440279+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-02T02:38:11.440279+00:00'
+[2025-05-02T02:38:13.694+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-02T02:38:13.809+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-02T02:38:13.810+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=news_dag, task_id=trigger_perm, run_id=manual__2025-05-02T02:38:11.440279+00:00, execution_date=20250502T023811, start_date=20250502T023813, end_date=20250502T023813
+[2025-05-02T02:38:13.824+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-02T02:38:13.836+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-02T02:38:13.837+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
