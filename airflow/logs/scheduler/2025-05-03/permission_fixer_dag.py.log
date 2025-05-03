@@ -1720,3 +1720,45 @@
 [2025-05-03T02:33:07.337+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.337+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-03T02:33:07.344+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:07.344+0000] {dag.py:4180} INFO - Setting next_dagrun for fix_permissions_dag to None, run_after=None
 [2025-05-03T02:33:07.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/permission_fixer_dag.py took 0.033 seconds
+[2025-05-03T02:33:38.216+0000] {processor.py:186} INFO - Started process (PID=933) to work on /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:33:38.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/permission_fixer_dag.py for tasks to queue
+[2025-05-03T02:33:38.217+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:38.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:33:38.221+0000] {processor.py:925} INFO - DAG(s) 'fix_permissions_dag' retrieved from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:33:38.231+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:38.231+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:33:38.312+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:33:38.311+0000] {dag.py:4180} INFO - Setting next_dagrun for fix_permissions_dag to None, run_after=None
+[2025-05-03T02:33:38.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/permission_fixer_dag.py took 0.105 seconds
+[2025-05-03T02:34:08.837+0000] {processor.py:186} INFO - Started process (PID=938) to work on /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:34:08.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/permission_fixer_dag.py for tasks to queue
+[2025-05-03T02:34:08.838+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:34:08.838+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:34:08.842+0000] {processor.py:925} INFO - DAG(s) 'fix_permissions_dag' retrieved from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:34:08.929+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:34:08.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:34:08.933+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:34:08.933+0000] {dag.py:4180} INFO - Setting next_dagrun for fix_permissions_dag to None, run_after=None
+[2025-05-03T02:34:08.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/permission_fixer_dag.py took 0.105 seconds
+[2025-05-03T02:34:39.589+0000] {processor.py:186} INFO - Started process (PID=943) to work on /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:34:39.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/permission_fixer_dag.py for tasks to queue
+[2025-05-03T02:34:39.590+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:34:39.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:34:39.594+0000] {processor.py:925} INFO - DAG(s) 'fix_permissions_dag' retrieved from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:34:39.604+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:34:39.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:34:39.611+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:34:39.611+0000] {dag.py:4180} INFO - Setting next_dagrun for fix_permissions_dag to None, run_after=None
+[2025-05-03T02:34:39.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/permission_fixer_dag.py took 0.033 seconds
+[2025-05-03T02:35:10.544+0000] {processor.py:186} INFO - Started process (PID=948) to work on /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:35:10.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/permission_fixer_dag.py for tasks to queue
+[2025-05-03T02:35:10.545+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:35:10.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:35:10.550+0000] {processor.py:925} INFO - DAG(s) 'fix_permissions_dag' retrieved from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:35:10.560+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:35:10.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:35:10.565+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:35:10.565+0000] {dag.py:4180} INFO - Setting next_dagrun for fix_permissions_dag to None, run_after=None
+[2025-05-03T02:35:10.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/permission_fixer_dag.py took 0.031 seconds
+[2025-05-03T02:35:41.059+0000] {processor.py:186} INFO - Started process (PID=953) to work on /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:35:41.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/permission_fixer_dag.py for tasks to queue
+[2025-05-03T02:35:41.060+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:35:41.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:35:41.063+0000] {processor.py:925} INFO - DAG(s) 'fix_permissions_dag' retrieved from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:35:41.075+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:35:41.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:35:41.080+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:35:41.080+0000] {dag.py:4180} INFO - Setting next_dagrun for fix_permissions_dag to None, run_after=None
+[2025-05-03T02:35:41.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/permission_fixer_dag.py took 0.032 seconds
+[2025-05-03T02:36:12.012+0000] {processor.py:186} INFO - Started process (PID=958) to work on /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:36:12.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/permission_fixer_dag.py for tasks to queue
+[2025-05-03T02:36:12.014+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:36:12.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:36:12.018+0000] {processor.py:925} INFO - DAG(s) 'fix_permissions_dag' retrieved from /opt/airflow/dags/permission_fixer_dag.py
+[2025-05-03T02:36:12.028+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:36:12.028+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-03T02:36:12.112+0000] {logging_mixin.py:190} INFO - [2025-05-03T02:36:12.112+0000] {dag.py:4180} INFO - Setting next_dagrun for fix_permissions_dag to None, run_after=None
+[2025-05-03T02:36:12.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/permission_fixer_dag.py took 0.110 seconds
